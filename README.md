@@ -58,7 +58,7 @@ await Firebase.initializeApp(
   options: DefaultFirebaseOptions.currentPlatform,
 );
 runApp(const MyApp());
-- 
+
 - Rebuild your Flutter application:
 ```bash
 flutter run
