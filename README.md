@@ -65,3 +65,19 @@ flutter run
 ```
 
 
+## Troubleshooting
+### Firebase not initialized
+If you get errors about Firebase not being initialized, make sure:
+
+You've added the correct configuration files for your platform
+
+You've called await Firebase.initializeApp() before using any Firebase services
+
+### Platform-specific issues
+For Android: Make sure your android/build.gradle has the correct Google services classpath
+
+For iOS: Make sure you've run pod install in the ios directory
+
+## Upcoming improvements
+- Adding Unit-Test
+- Implement calls
